@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Payment fee calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1><b>preis</b>rechner</h1>
+        <p>Zum berechnen der Transaktionskosten geben Sie bitte Ihre Angaben ein:</p>
+        <input id="p" placeholder="Anzahl der Transaktionen">
+        <p class="mal">mal</p>
+        <input id="n" placeholder="Transaktionsbetrag (Im Durchschnitt)">
+        <button onclick="calculate()">Berechnen</button>
+        <div class="output">
+            <div>
+                <p>Kosten pro Monat</p>
+                <div id="result"></div>
+            </div>
+            <div>
+                <p>Kosten pro Jahr</p>
+                <div id="result1y"></div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
